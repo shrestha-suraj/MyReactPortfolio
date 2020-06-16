@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import './components/styles/styles.css'
 import Navigation from './components/Navigation'
 import Home from './components/Home';
 import Profile from './components/Profile';
@@ -12,10 +13,10 @@ import Contact from './components/Contact';
 const App = () => {
   return (
     <div className="App">
-      <header>
+      <header className="navigation-bar">
         <Navigation/>
       </header>
-      <main>
+      <main className="main-container">
         <Home/>
         <Profile/>
         <Experience/>

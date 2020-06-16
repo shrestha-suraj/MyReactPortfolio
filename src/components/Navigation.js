@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navigation.css'
+import './styles/Navigation.css'
 import {HomeOutlined, UserOutlined, 
         CopyOutlined, CodepenCircleOutlined,
         FundProjectionScreenOutlined,PhoneOutlined

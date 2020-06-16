@@ -1,0 +1,7 @@
+#resume-div{
+    display: flex;
+}
+.resume-image{
+    width:70%;
+    margin:auto;
+}
