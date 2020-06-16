@@ -2,23 +2,50 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .my-image{
-    width:400px;
-    height:400px;
+    width:300px;
+    height:300px;
 }
 .info-text{
     text-align: center;
-}
-h1{
-    padding:0;
-    margin:0;
+    margin:0px auto;
+    width:70%
 }
 .name{
     font-weight: bold;
-    font-size: 0.2rem;
+    font-size: 0.15rem;
+    text-align: center;
+    padding:0;
+    margin:0;
+    color:white;
 }
 .position{
     font-weight: bold;
-    font-size: 0.1rem;    
+    font-size: 0.15rem;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+.goal{
+    font-size: 0.1rem;
+    text-align: center;
+    padding:0;
+}
+.hi{
+    font-size: 0.2rem;
+    color:black;
+}
+
+@media only screen and (max-width:600px){
+    .i-am{
+        display: none;
+    }
+    .hi{
+        display: none;
+    }
+}
+@media only screen and (min-width:600px){
+
 }
