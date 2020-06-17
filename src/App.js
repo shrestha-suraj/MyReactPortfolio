@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css'
-import './components/styles/styles.css'
 import Navigation from './components/Navigation'
 import Home from './components/Home';
 import Profile from './components/Profile';
