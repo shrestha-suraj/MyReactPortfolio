@@ -2,6 +2,7 @@
     --bg-primary:#000000;
     --text-primary:#ffffff;
     font-size: 16rem;
+    scroll-behavior: smooth;
 }
 
 body{
